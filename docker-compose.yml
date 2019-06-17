@@ -1,11 +1,11 @@
 version: '3.7'
 services:
   node-app:
-    build: ../node-app/
+    build: ../ht-node-app/
     ports:
       - "8080:4000"
   angular-app:
-    build: ../angular-app/
+    build: ../ht-angular-app/
     ports:
       - "80:80"
   db:
